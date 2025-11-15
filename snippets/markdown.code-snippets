@@ -59,5 +59,18 @@
 			"> ${1:This is a caution.}"
 		],
 		"description": "Insert a markdown callout caution block"
+	},
+	"Markdown Collapsible Section": {
+		"scope": "markdown",
+		"prefix": "markdown-collapsible-section",
+		"body": [
+			"<details>",
+			"  <summary>${1:Summary}</summary>",
+			"",
+			"  ${2:Content goes here.}",
+			"",
+			"</details>"
+		],
+		"description": "Insert a collapsible section"
 	}
 }
